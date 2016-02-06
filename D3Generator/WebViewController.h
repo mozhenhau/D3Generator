@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WebViewController.h
 //  D3Generator
 //
 //  Created by 莫振华 on 16/2/5.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface WebViewController : UIViewController
 
 @end
-

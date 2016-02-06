@@ -9,10 +9,21 @@
 /* Begin PBXBuildFile section */
 		116B3C641C6477880052E864 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 116B3C631C6477880052E864 /* main.m */; };
 		116B3C671C6477880052E864 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 116B3C661C6477880052E864 /* AppDelegate.m */; };
-		116B3C6A1C6477880052E864 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 116B3C691C6477880052E864 /* ViewController.m */; };
 		116B3C6D1C6477880052E864 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116B3C6B1C6477880052E864 /* Main.storyboard */; };
 		116B3C6F1C6477880052E864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116B3C6E1C6477880052E864 /* Assets.xcassets */; };
 		116B3C721C6477880052E864 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 116B3C701C6477880052E864 /* LaunchScreen.storyboard */; };
+		1174D0711C65C64500A837B1 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1174D0701C65C64500A837B1 /* TestViewController.m */; };
+		1174D0751C65C66E00A837B1 /* TestViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1174D0731C65C66E00A837B1 /* TestViewController1.m */; };
+		1174D0761C65C66E00A837B1 /* TestViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1174D0741C65C66E00A837B1 /* TestViewController1.xib */; };
+		1174D0791C65C6CF00A837B1 /* TestViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1174D0781C65C6CF00A837B1 /* TestViewController2.m */; };
+		1174D07C1C65CAC700A837B1 /* NSObject+D3.m in Sources */ = {isa = PBXBuildFile; fileRef = 1174D07B1C65CAC700A837B1 /* NSObject+D3.m */; };
+		11871C251C647F5E00319104 /* D3Generator.m in Sources */ = {isa = PBXBuildFile; fileRef = 11871C241C647F5E00319104 /* D3Generator.m */; };
+		11871C2A1C6483C300319104 /* ExampleApp.html in Resources */ = {isa = PBXBuildFile; fileRef = 11871C291C6483C300319104 /* ExampleApp.html */; };
+		11871C431C64ABE100319104 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11871C421C64ABE100319104 /* WebViewController.m */; };
+		11871C4C1C64ABE800319104 /* WebViewJavascriptBridge.js.txt in Resources */ = {isa = PBXBuildFile; fileRef = 11871C461C64ABE800319104 /* WebViewJavascriptBridge.js.txt */; };
+		11871C4D1C64ABE800319104 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 11871C471C64ABE800319104 /* WebViewJavascriptBridge.m */; };
+		11871C4E1C64ABE800319104 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 11871C491C64ABE800319104 /* WebViewJavascriptBridgeBase.m */; };
+		11871C4F1C64ABE800319104 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 11871C4B1C64ABE800319104 /* WKWebViewJavascriptBridge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +31,31 @@
 		116B3C631C6477880052E864 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		116B3C651C6477880052E864 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		116B3C661C6477880052E864 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		116B3C681C6477880052E864 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		116B3C691C6477880052E864 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		116B3C6C1C6477880052E864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		116B3C6E1C6477880052E864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		116B3C711C6477880052E864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		116B3C731C6477880052E864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1174D06F1C65C64500A837B1 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		1174D0701C65C64500A837B1 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		1174D0721C65C66E00A837B1 /* TestViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController1.h; sourceTree = "<group>"; };
+		1174D0731C65C66E00A837B1 /* TestViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController1.m; sourceTree = "<group>"; };
+		1174D0741C65C66E00A837B1 /* TestViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController1.xib; sourceTree = "<group>"; };
+		1174D0771C65C6CF00A837B1 /* TestViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController2.h; sourceTree = "<group>"; };
+		1174D0781C65C6CF00A837B1 /* TestViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController2.m; sourceTree = "<group>"; };
+		1174D07A1C65CAC700A837B1 /* NSObject+D3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+D3.h"; sourceTree = "<group>"; };
+		1174D07B1C65CAC700A837B1 /* NSObject+D3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+D3.m"; sourceTree = "<group>"; };
+		11871C231C647F5E00319104 /* D3Generator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = D3Generator.h; sourceTree = "<group>"; };
+		11871C241C647F5E00319104 /* D3Generator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = D3Generator.m; sourceTree = "<group>"; };
+		11871C291C6483C300319104 /* ExampleApp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ExampleApp.html; sourceTree = "<group>"; };
+		11871C411C64ABE100319104 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		11871C421C64ABE100319104 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		11871C451C64ABE800319104 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		11871C461C64ABE800319104 /* WebViewJavascriptBridge.js.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WebViewJavascriptBridge.js.txt; sourceTree = "<group>"; };
+		11871C471C64ABE800319104 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		11871C481C64ABE800319104 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		11871C491C64ABE800319104 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		11871C4A1C64ABE800319104 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		11871C4B1C64ABE800319104 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +88,14 @@
 		116B3C611C6477880052E864 /* D3Generator */ = {
 			isa = PBXGroup;
 			children = (
+				11871C221C647F5E00319104 /* D3Generator */,
+				11871C441C64ABE800319104 /* WebViewJavascriptBridge */,
+				11871C291C6483C300319104 /* ExampleApp.html */,
+				1174D06E1C65C61900A837B1 /* TestViewController */,
 				116B3C651C6477880052E864 /* AppDelegate.h */,
 				116B3C661C6477880052E864 /* AppDelegate.m */,
-				116B3C681C6477880052E864 /* ViewController.h */,
-				116B3C691C6477880052E864 /* ViewController.m */,
+				11871C411C64ABE100319104 /* WebViewController.h */,
+				11871C421C64ABE100319104 /* WebViewController.m */,
 				116B3C6B1C6477880052E864 /* Main.storyboard */,
 				116B3C6E1C6477880052E864 /* Assets.xcassets */,
 				116B3C701C6477880052E864 /* LaunchScreen.storyboard */,
@@ -77,6 +111,45 @@
 				116B3C631C6477880052E864 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1174D06E1C65C61900A837B1 /* TestViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1174D06F1C65C64500A837B1 /* TestViewController.h */,
+				1174D0701C65C64500A837B1 /* TestViewController.m */,
+				1174D0721C65C66E00A837B1 /* TestViewController1.h */,
+				1174D0731C65C66E00A837B1 /* TestViewController1.m */,
+				1174D0741C65C66E00A837B1 /* TestViewController1.xib */,
+				1174D0771C65C6CF00A837B1 /* TestViewController2.h */,
+				1174D0781C65C6CF00A837B1 /* TestViewController2.m */,
+			);
+			name = TestViewController;
+			sourceTree = "<group>";
+		};
+		11871C221C647F5E00319104 /* D3Generator */ = {
+			isa = PBXGroup;
+			children = (
+				11871C231C647F5E00319104 /* D3Generator.h */,
+				11871C241C647F5E00319104 /* D3Generator.m */,
+				1174D07A1C65CAC700A837B1 /* NSObject+D3.h */,
+				1174D07B1C65CAC700A837B1 /* NSObject+D3.m */,
+			);
+			path = D3Generator;
+			sourceTree = "<group>";
+		};
+		11871C441C64ABE800319104 /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				11871C451C64ABE800319104 /* WebViewJavascriptBridge.h */,
+				11871C461C64ABE800319104 /* WebViewJavascriptBridge.js.txt */,
+				11871C471C64ABE800319104 /* WebViewJavascriptBridge.m */,
+				11871C481C64ABE800319104 /* WebViewJavascriptBridgeBase.h */,
+				11871C491C64ABE800319104 /* WebViewJavascriptBridgeBase.m */,
+				11871C4A1C64ABE800319104 /* WKWebViewJavascriptBridge.h */,
+				11871C4B1C64ABE800319104 /* WKWebViewJavascriptBridge.m */,
+			);
+			path = WebViewJavascriptBridge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +211,10 @@
 			files = (
 				116B3C721C6477880052E864 /* LaunchScreen.storyboard in Resources */,
 				116B3C6F1C6477880052E864 /* Assets.xcassets in Resources */,
+				1174D0761C65C66E00A837B1 /* TestViewController1.xib in Resources */,
+				11871C4C1C64ABE800319104 /* WebViewJavascriptBridge.js.txt in Resources */,
 				116B3C6D1C6477880052E864 /* Main.storyboard in Resources */,
+				11871C2A1C6483C300319104 /* ExampleApp.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,8 +225,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				116B3C6A1C6477880052E864 /* ViewController.m in Sources */,
+				11871C4F1C64ABE800319104 /* WKWebViewJavascriptBridge.m in Sources */,
+				11871C4E1C64ABE800319104 /* WebViewJavascriptBridgeBase.m in Sources */,
+				11871C4D1C64ABE800319104 /* WebViewJavascriptBridge.m in Sources */,
+				1174D0751C65C66E00A837B1 /* TestViewController1.m in Sources */,
+				11871C431C64ABE100319104 /* WebViewController.m in Sources */,
+				1174D07C1C65CAC700A837B1 /* NSObject+D3.m in Sources */,
 				116B3C671C6477880052E864 /* AppDelegate.m in Sources */,
+				1174D0791C65C6CF00A837B1 /* TestViewController2.m in Sources */,
+				1174D0711C65C64500A837B1 /* TestViewController.m in Sources */,
+				11871C251C647F5E00319104 /* D3Generator.m in Sources */,
 				116B3C641C6477880052E864 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +346,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = D3Generator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.d3.D3Generator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,6 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = D3Generator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.d3.D3Generator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -298,6 +384,7 @@
 				116B3C781C6477880052E864 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

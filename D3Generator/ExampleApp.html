@@ -1,0 +1,30 @@
+<!doctype html>
+<html><head>
+</head><body>
+	<h1>我是UIWebview</h1>
+	<script>
+        function clickButton1(){
+            var data = {'className': 'TestViewController',
+                        'comFrom':'web'};
+            window.WebViewJavascriptBridge.send(data);
+        };
+    
+    
+        function clickButton2(){
+            var data = {'className': 'TestViewController1',
+                        'comFrom':'web'};
+            window.WebViewJavascriptBridge.send(data);
+        };
+    
+    
+        function clickButton3(){
+            var data = {'className': 'TestViewController2',
+                        'storyboard': 'Main',
+                        'comFrom':'web'};
+            window.WebViewJavascriptBridge.send(data);
+        };
+    </script>
+	<div id='button1' onClick='clickButton1()'>Go VC1, 跳转到纯代码写的vc</div><br>
+    <div id='button2' onClick='clickButton2()'>Go VC2, 跳转到xib写的vc</div><br>
+    <div id='button3' onClick='clickButton3()'>Go VC3, 跳转到storyboard写的vc</div>
+</body></html>
