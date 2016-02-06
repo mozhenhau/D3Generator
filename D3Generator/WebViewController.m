@@ -36,7 +36,9 @@
         NSLog(@"ObjC received message from JS: %@", data);
         responseCallback(@"报告: IOS收到！！！");
         
-        UIViewController *vc = [D3Generator createViewControllerWithDictAndPush:data];
+        [D3Generator createViewControllerWithDictAndPush:data];
+//        或者:
+//        UIViewController *vc = [D3Generator createViewControllerWithDict:data];
 //        [self.navigationController pushViewController:vc animated:YES];
     }];
 }

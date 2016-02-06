@@ -17,13 +17,13 @@
 		1174D0761C65C66E00A837B1 /* TestViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1174D0741C65C66E00A837B1 /* TestViewController1.xib */; };
 		1174D0791C65C6CF00A837B1 /* TestViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1174D0781C65C6CF00A837B1 /* TestViewController2.m */; };
 		1174D07C1C65CAC700A837B1 /* NSObject+D3.m in Sources */ = {isa = PBXBuildFile; fileRef = 1174D07B1C65CAC700A837B1 /* NSObject+D3.m */; };
+		1174D0851C65DEE000A837B1 /* WebViewJavascriptBridge.js.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1174D07F1C65DEE000A837B1 /* WebViewJavascriptBridge.js.txt */; };
+		1174D0861C65DEE000A837B1 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 1174D0801C65DEE000A837B1 /* WebViewJavascriptBridge.m */; };
+		1174D0871C65DEE000A837B1 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1174D0821C65DEE000A837B1 /* WebViewJavascriptBridgeBase.m */; };
+		1174D0881C65DEE000A837B1 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 1174D0841C65DEE000A837B1 /* WKWebViewJavascriptBridge.m */; };
 		11871C251C647F5E00319104 /* D3Generator.m in Sources */ = {isa = PBXBuildFile; fileRef = 11871C241C647F5E00319104 /* D3Generator.m */; };
 		11871C2A1C6483C300319104 /* ExampleApp.html in Resources */ = {isa = PBXBuildFile; fileRef = 11871C291C6483C300319104 /* ExampleApp.html */; };
 		11871C431C64ABE100319104 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11871C421C64ABE100319104 /* WebViewController.m */; };
-		11871C4C1C64ABE800319104 /* WebViewJavascriptBridge.js.txt in Resources */ = {isa = PBXBuildFile; fileRef = 11871C461C64ABE800319104 /* WebViewJavascriptBridge.js.txt */; };
-		11871C4D1C64ABE800319104 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 11871C471C64ABE800319104 /* WebViewJavascriptBridge.m */; };
-		11871C4E1C64ABE800319104 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 11871C491C64ABE800319104 /* WebViewJavascriptBridgeBase.m */; };
-		11871C4F1C64ABE800319104 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 11871C4B1C64ABE800319104 /* WKWebViewJavascriptBridge.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,18 +44,18 @@
 		1174D0781C65C6CF00A837B1 /* TestViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController2.m; sourceTree = "<group>"; };
 		1174D07A1C65CAC700A837B1 /* NSObject+D3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+D3.h"; sourceTree = "<group>"; };
 		1174D07B1C65CAC700A837B1 /* NSObject+D3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+D3.m"; sourceTree = "<group>"; };
+		1174D07E1C65DEE000A837B1 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		1174D07F1C65DEE000A837B1 /* WebViewJavascriptBridge.js.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WebViewJavascriptBridge.js.txt; sourceTree = "<group>"; };
+		1174D0801C65DEE000A837B1 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		1174D0811C65DEE000A837B1 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		1174D0821C65DEE000A837B1 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		1174D0831C65DEE000A837B1 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		1174D0841C65DEE000A837B1 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
 		11871C231C647F5E00319104 /* D3Generator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = D3Generator.h; sourceTree = "<group>"; };
 		11871C241C647F5E00319104 /* D3Generator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = D3Generator.m; sourceTree = "<group>"; };
 		11871C291C6483C300319104 /* ExampleApp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ExampleApp.html; sourceTree = "<group>"; };
 		11871C411C64ABE100319104 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		11871C421C64ABE100319104 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
-		11871C451C64ABE800319104 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
-		11871C461C64ABE800319104 /* WebViewJavascriptBridge.js.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WebViewJavascriptBridge.js.txt; sourceTree = "<group>"; };
-		11871C471C64ABE800319104 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
-		11871C481C64ABE800319104 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
-		11871C491C64ABE800319104 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
-		11871C4A1C64ABE800319104 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
-		11871C4B1C64ABE800319104 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				11871C221C647F5E00319104 /* D3Generator */,
-				11871C441C64ABE800319104 /* WebViewJavascriptBridge */,
 				11871C291C6483C300319104 /* ExampleApp.html */,
 				1174D06E1C65C61900A837B1 /* TestViewController */,
 				116B3C651C6477880052E864 /* AppDelegate.h */,
@@ -127,29 +126,30 @@
 			name = TestViewController;
 			sourceTree = "<group>";
 		};
+		1174D07D1C65DEE000A837B1 /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				1174D07E1C65DEE000A837B1 /* WebViewJavascriptBridge.h */,
+				1174D07F1C65DEE000A837B1 /* WebViewJavascriptBridge.js.txt */,
+				1174D0801C65DEE000A837B1 /* WebViewJavascriptBridge.m */,
+				1174D0811C65DEE000A837B1 /* WebViewJavascriptBridgeBase.h */,
+				1174D0821C65DEE000A837B1 /* WebViewJavascriptBridgeBase.m */,
+				1174D0831C65DEE000A837B1 /* WKWebViewJavascriptBridge.h */,
+				1174D0841C65DEE000A837B1 /* WKWebViewJavascriptBridge.m */,
+			);
+			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
 		11871C221C647F5E00319104 /* D3Generator */ = {
 			isa = PBXGroup;
 			children = (
+				1174D07D1C65DEE000A837B1 /* WebViewJavascriptBridge */,
 				11871C231C647F5E00319104 /* D3Generator.h */,
 				11871C241C647F5E00319104 /* D3Generator.m */,
 				1174D07A1C65CAC700A837B1 /* NSObject+D3.h */,
 				1174D07B1C65CAC700A837B1 /* NSObject+D3.m */,
 			);
 			path = D3Generator;
-			sourceTree = "<group>";
-		};
-		11871C441C64ABE800319104 /* WebViewJavascriptBridge */ = {
-			isa = PBXGroup;
-			children = (
-				11871C451C64ABE800319104 /* WebViewJavascriptBridge.h */,
-				11871C461C64ABE800319104 /* WebViewJavascriptBridge.js.txt */,
-				11871C471C64ABE800319104 /* WebViewJavascriptBridge.m */,
-				11871C481C64ABE800319104 /* WebViewJavascriptBridgeBase.h */,
-				11871C491C64ABE800319104 /* WebViewJavascriptBridgeBase.m */,
-				11871C4A1C64ABE800319104 /* WKWebViewJavascriptBridge.h */,
-				11871C4B1C64ABE800319104 /* WKWebViewJavascriptBridge.m */,
-			);
-			path = WebViewJavascriptBridge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,8 +211,8 @@
 			files = (
 				116B3C721C6477880052E864 /* LaunchScreen.storyboard in Resources */,
 				116B3C6F1C6477880052E864 /* Assets.xcassets in Resources */,
+				1174D0851C65DEE000A837B1 /* WebViewJavascriptBridge.js.txt in Resources */,
 				1174D0761C65C66E00A837B1 /* TestViewController1.xib in Resources */,
-				11871C4C1C64ABE800319104 /* WebViewJavascriptBridge.js.txt in Resources */,
 				116B3C6D1C6477880052E864 /* Main.storyboard in Resources */,
 				11871C2A1C6483C300319104 /* ExampleApp.html in Resources */,
 			);
@@ -225,12 +225,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11871C4F1C64ABE800319104 /* WKWebViewJavascriptBridge.m in Sources */,
-				11871C4E1C64ABE800319104 /* WebViewJavascriptBridgeBase.m in Sources */,
-				11871C4D1C64ABE800319104 /* WebViewJavascriptBridge.m in Sources */,
 				1174D0751C65C66E00A837B1 /* TestViewController1.m in Sources */,
+				1174D0861C65DEE000A837B1 /* WebViewJavascriptBridge.m in Sources */,
 				11871C431C64ABE100319104 /* WebViewController.m in Sources */,
 				1174D07C1C65CAC700A837B1 /* NSObject+D3.m in Sources */,
+				1174D0881C65DEE000A837B1 /* WKWebViewJavascriptBridge.m in Sources */,
+				1174D0871C65DEE000A837B1 /* WebViewJavascriptBridgeBase.m in Sources */,
 				116B3C671C6477880052E864 /* AppDelegate.m in Sources */,
 				1174D0791C65C6CF00A837B1 /* TestViewController2.m in Sources */,
 				1174D0711C65C64500A837B1 /* TestViewController.m in Sources */,

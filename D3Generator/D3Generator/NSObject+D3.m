@@ -36,7 +36,14 @@
  *  @param object 要设置的对象
  */
 -(void)setPropertiesWithDict:(NSDictionary*)dict object:(id)object{
-    Class class = NSClassFromString(dict[@"className"]);
+    Class class;
+    if (dict[@"className"]) {
+        class = NSClassFromString(dict[@"className"]);
+    }
+    else{
+        class = self.class;
+    }
+    
     NSArray *properties = [self getPropertiesWithClass:class];
     for (NSString* key in properties) {
         if (dict[key]) {
