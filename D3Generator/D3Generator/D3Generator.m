@@ -3,7 +3,7 @@
 //  mdcnapp
 //
 //  Created by 莫振华 on 16/2/4.
-//  Copyright © 2016年 com.mindai. All rights reserved.
+//  Copyright © 2016年 mozhenhau. All rights reserved.
 //  对象生成器工厂
 
 #import "D3Generator.h"

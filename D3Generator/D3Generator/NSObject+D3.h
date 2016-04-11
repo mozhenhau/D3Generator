@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <objc/runtime.h>// 导入运行时文件
 
 @interface NSObject (D3)
 
@@ -19,4 +20,8 @@
 //获取对象属性名
 - (NSMutableArray*)getProperties;
 - (NSMutableArray*)getPropertiesWithClass:(Class)cls;
+
+
+#pragma mark  swizzle
++ (BOOL)swizzleMethod:(SEL)oldSel withMethod:(SEL)newSel withTarget:(id)target;
 @end

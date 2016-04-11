@@ -7,7 +7,6 @@
 //
 
 #import "NSObject+D3.h"
-#import <objc/runtime.h>// 导入运行时文件
 
 @implementation NSObject(D3)
 
@@ -88,4 +87,15 @@
     return [self getPropertiesWithClass:self.class];
 }
 
+
+#pragma mark  swizzle
++ (BOOL)swizzleMethod:(SEL)oldSel withMethod:(SEL)newSel withTarget:(id)target{
+    Method newMethod = class_getInstanceMethod([target class], newSel);
+    if (newMethod
+        && class_replaceMethod(self.class, oldSel, method_getImplementation(newMethod), method_getTypeEncoding(newMethod))) {
+        
+        return YES;
+    }
+    return NO;
+}
 @end

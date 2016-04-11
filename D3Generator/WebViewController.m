@@ -9,8 +9,8 @@
 #import "WebViewController.h"
 #import "WebViewJavascriptBridge.h"
 #import "D3Generator.h"
-#import "TestViewController2.h"
 #import "NSObject+D3.h"
+#import <objc/runtime.h>// 导入运行时文件
 
 @interface WebViewController ()<UIWebViewDelegate>
 @property(nonatomic,strong)WebViewJavascriptBridge *bridge;
@@ -28,8 +28,23 @@
     NSURL *baseURL = [NSURL fileURLWithPath:htmlPath];
     [_webView loadHTMLString:appHtml baseURL:baseURL];
     [self addRoute:_webView];
+
+    
+//    [WebViewController swizzleMethod:@selector(cry) withMethod:@selector(smile) withTarget:self];
+    Method oldMethod = class_getInstanceMethod(self.class, @selector(cry));
+    Method newMethod = class_getInstanceMethod(self.class, @selector(smile));
+
+    method_setImplementation(oldMethod, method_getImplementation(newMethod));
+    [self cry];
 }
 
+-(void)smile{
+    NSLog(@"smile");
+}
+
+-(void)cry{
+    NSLog(@"cry");
+}
 
 -(void)addRoute:(UIWebView*)webView{
     _bridge = [WebViewJavascriptBridge bridgeForWebView:webView webViewDelegate:self handler:^(id data, WVJBResponseCallback responseCallback) {
