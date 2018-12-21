@@ -13,3 +13,10 @@
 
 可以生成控制器自行跳转
 '' UIViewController *vc = [D3Generator createViewControllerWithDict:data];
+
+data的格式如：
+{
+'className':"xxxxVC",
+'name':'D3',
+}
+只有className参数是必须的， 这个字段决定了要生成的控制器ViewController
